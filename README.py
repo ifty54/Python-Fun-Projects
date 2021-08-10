@@ -55,12 +55,6 @@ while keep_alive:
     update_chicken_pos(0)
     update_chicken_pos(1)
     update_chicken_pos(2)
-
-
-  #if chicken_y > 600:
-    #chicken_y = 0
-  #else:
-    #chicken_y = chicken_y + 1
     
     screen.blit(background, [0,0])
     screen.blit(user, [user_x,520])
